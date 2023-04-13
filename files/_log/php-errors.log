@@ -1,0 +1,20 @@
+[2023-04-03 05:00:47] glpiphplog.WARNING: Test logger  
+[2023-04-04 05:28:26] glpiphplog.CRITICAL:   *** Uncaught Exception Error: Call to a member function getTime() on null in /Applications/MAMP/htdocs/glpi/src/Html.php at line 761
+  Backtrace :
+  src/Html.php:1877                                  Html::displayDebugInfos()
+  src/Html.php:2100                                  Html::footer()
+  src/Html.php:888                                   Html::nullFooter()
+  src/Session.php:1537                               Html::displayErrorAndDie()
+  install/install.php:546                            Session::checkCSRF()
+  
+[2023-04-04 05:28:26] glpiphplog.DEBUG: Html::compileScss() in /Applications/MAMP/htdocs/glpi/src/Html.php line 6799
+Compile css/palettes/auror.scss  {"user":"@macs-MacBook-Pro.local"} 
+[2023-04-04 05:28:49] glpiphplog.CRITICAL:   *** Uncaught Exception Error: Call to a member function getTime() on null in /Applications/MAMP/htdocs/glpi/src/Html.php at line 761
+  Backtrace :
+  src/Html.php:1877                                  Html::displayDebugInfos()
+  src/Html.php:2100                                  Html::footer()
+  src/Html.php:888                                   Html::nullFooter()
+  src/Session.php:1537                               Html::displayErrorAndDie()
+  install/install.php:546                            Session::checkCSRF()
+  
+[2023-04-04 05:29:02] glpiphplog.WARNING: Test logger  
